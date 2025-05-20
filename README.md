@@ -1,4 +1,4 @@
 Personal Portfolio Website
 ===========================
 
-By Andrew DeOrio <rayankdm@umich.edu>
+By Rayan Kamdem <rayankdm@umich.edu>
