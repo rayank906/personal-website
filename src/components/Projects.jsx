@@ -4,7 +4,7 @@ const projects = [
     {
       id: 1,
       title: "Video Resizer", 
-      description: "Vid Res type",
+      description: "Resizer that applies the seam carving algorithm to remove the least important pixels from each frame of an MP4 file",
       image: "/images/resizerimg.png",
       tags: ["C++", "OpenCV"],
       githubUrl: "#"
@@ -12,37 +12,36 @@ const projects = [
 
     {
       id: 2,
-      title: "Internal Tool", 
-      description: "xyz",
-      image: "/images/resizerimg.png",
+      title: "Atlas Digital Internal Tool", 
+      description: "React app that fetches recruiter emails and draft messages using ApolloAI and OpenAI APIs",
+      image: "/images/internal.png",
       tags: ["JavaScript", "React.js", "Node.js", "Express.js", "Firebase"],
       githubUrl: "#"
     },
 
     {
       id: 3,
-      title: "Automated Reminder System", 
-      description: "xyz",
-      image: "/images/resizerimg.png",
+      title: "Subscription Reminder System", 
+      description: "Sends automated email and SMS reminders to users when their subscriptions end dates are approaching",
+      image: "/images/fronttieres.png",
       tags: ["Python", "Flask", "MySQL", "phpMyAdmin"],
-      githubUrl: "#"
     },
 
     {
       id: 4,
       title: "Reddit Post Classifier", 
-      description: "xyz",
-      image: "/images/resizerimg.png",
+      description: "Designed a classifier that uses the bag-of-words model and log-probability scores to label finance posts on reddit",
+      image: "/images/rfinance.png",
       tags: ["C++"],
-      githubUrl: "#"
+      githubUrl: ""
     },
 
     {
       id: 5,
       title: "Personal Website", 
-      description: "xyz",
-      image: "/images/resizerimg.png",
-      tags: ["JavaScript", "React.js", "TailwindCSS"],
+      description: "Single-page blue-themed website",
+      image: "/images/me.png",
+      tags: ["JavaScript", "React.js", "TailwindCSS", "Vite"],
       githubUrl: "#"
     },
 ]

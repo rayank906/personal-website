@@ -10,17 +10,21 @@ export const About = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold"> Tech Enthusiast </h3>
+                    <h3 className="text-2xl font-semibold"></h3>
                     <p className="text-muted-foreground">
-                        xyxxxxx
+                        I'm a student at the University of Michigan majoring in Computer Science
+                        and minoring in Mathematics. I'm currently very interested in systems and cloud computing, financial markets,
+                        machine learning and abstract mathematics. In my free time, you'll catch me on the basketball courts, at my desk drawing
+                        or outside reading.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button ">
                             {" "}
                             Get In Touch
                         </a>
-                        <a href="" className="px-6 py-2 rounded-full border border-primary text-primary 
-                            hover:bg-primary/10 transition-colors duration-300">
+                        <a href="https://drive.google.com/file/d/1Bx0Zvx-uSKHVVkN1RJ7Vtkq_PPlE0_6a/view" 
+                        className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                        target="_blank">
                             Resume
                         </a>
                     </div>

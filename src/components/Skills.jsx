@@ -1,5 +1,6 @@
 import { FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
-import { SiCplusplus, SiCss3, SiFirebase, SiFlask, SiGit, SiGithub, SiMysql, SiNodedotjs, SiNumpy, SiPandas, SiPython, SiR, SiReact } from "react-icons/si"
+import { FaC } from "react-icons/fa6";
+import { SiC, SiCplusplus, SiCss3, SiFirebase, SiFlask, SiGit, SiGithub, SiMysql, SiNodedotjs, SiNumpy, SiPandas, SiPython, SiR, SiReact, SiSqlalchemy, SiSqlite } from "react-icons/si"
 
 const skills = [
     {
@@ -30,7 +31,7 @@ const skills = [
       name: "Java",
       icon: <FaJava className="w-10 h-10" style={{ color: "#ed8b00" }} />,
     },
-    ];
+];
 
 const devTools = [
     {
@@ -80,7 +81,7 @@ export const Skills = () => {
         {/* Languages Section */}
         <div className="mb-16 animate-fade-in-delay-1">
           <h3 className="text-2xl font-semibold mb-8 text-foreground/80 text-center">Programming Languages</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {skills.map((skill, index) => (
               <div
                 key={index}

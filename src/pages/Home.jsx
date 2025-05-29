@@ -10,7 +10,8 @@ import { StarBackground } from "@/components/StarBackground"
 export const Home = () => {
     return (<div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         {/* Theme toggle */}
-        <ThemeToggle />
+        {/* placed in NavBar to make sure navbar doesnt ignore it */}
+
         {/* Background effects */}
         <StarBackground />
         {/* Navigation Bar */}

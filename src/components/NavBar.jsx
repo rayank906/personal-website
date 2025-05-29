@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "../lib/utils";
 import { ThemeToggle } from "./ThemeToggle";
-//list of links in navBar
 
 const navItems = [
     {name: "Home", href: "#hero"},
@@ -33,11 +32,10 @@ export const NavBar = () => {
             <a className="text-xl font-bold text-primary flex items-center" 
             href="#hero">
                 <span className="relative z-10">
-                    <span className="text-glow text-foreground">Rayan Kamdem </span>
+                    <span className="text-foreground">Rayan Kamdem </span>
                     {" "}
                 </span>
             </a>
-
             {/* desktop nav */}
             <div className="hidden md:flex space-x-8">
                 {navItems.map((item, key) => (
@@ -50,7 +48,7 @@ export const NavBar = () => {
             {/* mobile nav */}
             <button
             onClick={() => setIsMenuOpen((prev) => !prev)}
-            className="md:hidden p-2 text-foreground z-50"
+            className="md:hidden p-2 text-foreground z-50 relative ml-auto"
             aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
             >
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}

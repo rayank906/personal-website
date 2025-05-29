@@ -19,14 +19,7 @@ export const Hero = () => {
 
                 <p className="text-lg md:text-xl text-muted-foreground 
                 max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Xyz Rayan K Atty Digi
                 </p>
-
-                <div className="opacity-0 animate-fade-in-delay-4 pt-4">
-                    <a href="#projects" className="cosmic-button">
-                        View My Work
-                    </a>
-                </div>
             </div>
         </div>
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col

@@ -1,4 +1,4 @@
-import { Instagram,Linkedin,Mail,MapPin,Phone,Send,Twitch,Twitter } from "lucide-react";
+import { Github, Instagram,Linkedin,Mail,MapPin,Phone,Send,Twitch,Twitter } from "lucide-react";
 import { cn } from "../lib/utils";
 import { useState } from "react";
 import { useToast } from "../hooks/use-toast";
@@ -12,10 +12,12 @@ export const Contact = () => {
 
     setIsSubmitting(true);
 
-    setTimeout(() => { {/*FIX MESSAGE MESSAGE LEAVE */}
+    setTimeout(() => {
       toast({
         title: "Message sent!",
-        description: "Thank you for your message.",
+        description: "Thanks for reaching out!",
+        duration: 1500,
+        className: "w-fit mx-auto"
       });
       setIsSubmitting(false);
     }, 1500);
@@ -28,7 +30,7 @@ export const Contact = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Reach out if you have a project in mind or wish to discuss anything. I'm always open to conversation
+          Let's connect! Whether you have a project in mind or just want to exchange ideas, I'm always open to conversation.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -38,8 +40,8 @@ export const Contact = () => {
               Contact Information
             </h3>
 
-            <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+            <div className="flex flex-col items-center space-y-6">
+              <div className="flex items-center space-x-4 w-64">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -49,25 +51,25 @@ export const Contact = () => {
                     href="mailto:hello@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    rayankdm@umich.edu
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4 w-64">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />{" "}
+                  <Linkedin className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Phone</h4>
+                  <h4 className="font-medium"> LinkedIn</h4>
                   <a
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    Rayan Kamdem
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4 w-64">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
@@ -77,24 +79,6 @@ export const Contact = () => {
                     Ann Arbor, MI, USA
                   </a>
                 </div>
-              </div>
-            </div>
-
-            <div className="pt-8">
-              <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
-                  <Linkedin />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
-                </a>
               </div>
             </div>
           </div>
@@ -120,7 +104,7 @@ export const Contact = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Pedro Machado..."
+                  placeholder="John Doe..."
                 />
               </div>
 
@@ -155,7 +139,7 @@ export const Contact = () => {
                   name="message"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary resize-none"
-                  placeholder="Hello, I'd like to talk about..."
+                  placeholder="Hi, I'd love to chat about..."
                 />
               </div>
 
