@@ -10,13 +10,13 @@ export const Footer = () => {
         <div>
           <h4 className="font-medium mb-2"> Connect With Me</h4>
           <div className="flex space-x-4 justify-center">
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/rayan-kamdem-301143291/" target="_blank">
               <Linkedin />
             </a>
-            <a href="#" target="_blank">
+            <a href="mailto:rayankdm@umich.edu" target="_blank">
               <Mail />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/rayank906" target="_blank">
               <Github />
             </a>
           </div>
