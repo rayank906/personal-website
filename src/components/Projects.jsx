@@ -1,4 +1,4 @@
-import { Github } from "lucide-react";
+import { Github, GithubIcon } from "lucide-react";
 
 const projects = [
     {
@@ -79,14 +79,6 @@ export const Projects = () => {
                         <p className="text-muted-foreground text-sm mb-4">
                                 {project.description}
                         </p>
-                        <div className=""> {/* GITHUB BUTTON ON PROJECTS */}
-                                <div className="flex space-x-3">
-                                    <a href={project.githubUrl} className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                    target="_blank">
-                                        <Github />
-                                    </a>
-                                </div>
-                        </div>
                     </div>
                 ))}
             </div>

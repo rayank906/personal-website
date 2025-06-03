@@ -12,8 +12,6 @@ export const Home = () => {
         {/* Theme toggle */}
         {/* placed in NavBar to make sure navbar doesnt ignore it */}
 
-        {/* Background effects */}
-        <StarBackground />
         {/* Navigation Bar */}
         <NavBar />
         {/* Main Content */}

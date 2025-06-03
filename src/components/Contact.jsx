@@ -62,7 +62,7 @@ export const Contact = () => {
                 <div>
                   <h4 className="font-medium"> LinkedIn</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="https://www.linkedin.com/in/rayan-kamdem-301143291/"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     Rayan Kamdem
