@@ -22,7 +22,7 @@ export const About = () => {
                             {" "}
                             Get In Touch
                         </a>
-                        <a href="https://drive.google.com/file/d/1Bx0Zvx-uSKHVVkN1RJ7Vtkq_PPlE0_6a/view" 
+                        <a href="/files/resume_rayan.pdf" 
                         className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                         target="_blank">
                             Resume

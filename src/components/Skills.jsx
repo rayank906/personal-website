@@ -1,4 +1,4 @@
-import { FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
+import { FaAws, FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
 import { FaC } from "react-icons/fa6";
 import { SiC, SiCplusplus, SiCss3, SiFirebase, SiFlask, SiGit, SiGithub, SiMysql, SiNodedotjs, SiNumpy, SiPandas, SiPython, SiR, SiReact, SiSqlalchemy, SiSqlite } from "react-icons/si"
 
@@ -69,6 +69,10 @@ const devTools = [
     {
       name: "NumPy",
       icon: <SiNumpy className="w-10 h-10" style={{ color: "#013243" }} />,
+    },
+    {
+      name: "AWS",
+      icon: <FaAws className="w-10 h-10" style={{ color: "#232F3E" }} />,
     },
 ]
 
