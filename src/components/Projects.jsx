@@ -3,10 +3,10 @@ import { Github, GithubIcon } from "lucide-react";
 const projects = [
     {
       id: 1,
-      title: "Crypto Price Prediction", 
-      description: "FastAPI endpoint that predicts bitcoin returns using an XGBoost model",
+      title: "Crypto Trading Strategy Engine", 
+      description: "FastAPI endpoint that predicts bitcoin price movement using an XGBoost model",
       image: "/images/crypto.png",
-      tags: ["Python", "FastAPI", "Pandas", "XGBoost", "AWS Lambda"],
+      tags: ["Python", "FastAPI", "NumPy", "XGBoost", "AWS Lambda"],
       githubUrl: "https://github.com/rayank906/btc_api"
     },
 
