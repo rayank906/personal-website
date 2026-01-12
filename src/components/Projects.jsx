@@ -2,12 +2,20 @@ import { Github, GithubIcon } from "lucide-react";
 
 const projects = [
     {
+      id: 0,
+      title: "Integrate Healthcare Analytics Dashboard", 
+      description: "Spring Boot backend service for a healthcare analytics dashboard",
+      image: "/images/ehr.png",
+      tags: ["Java", "Spring Boot", "PostgreSQL", "AWS RDS"],
+      githubUrl: "https://github.com/brhys1/integrate-analytics-dashboard"
+    },
+
+    {
       id: 1,
       title: "Crypto Trading Strategy Engine", 
-      description: "FastAPI endpoint that predicts bitcoin price movement using an XGBoost model",
+      description: "Building a FastAPI endpoint that predicts bitcoin price movement using an XGBoost model",
       image: "/images/crypto.png",
       tags: ["Python", "FastAPI", "NumPy", "XGBoost", "AWS Lambda"],
-      githubUrl: "https://github.com/rayank906/btc_api"
     },
 
     {
