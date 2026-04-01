@@ -31,7 +31,7 @@ const projects = [
       title: "Video Resizer", 
       description: "Resizer that applies the seam carving algorithm to remove the least important pixels from each frame of an MP4 file",
       image: "/images/resizerimg.png",
-      tags: ["C++", "OpenCV", "OpenMP"],
+      tags: ["C++", "OpenCV", "OpenMP", "CUDA"],
     //   githubUrl: "https://github.com/rayank906/resizer"
     },
 

@@ -1,6 +1,6 @@
-import { FaAws, FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
+import { FaAws, FaDatabase, FaHtml5, FaJava, FaJs, FaPython, FaReact } from "react-icons/fa";
 import { FaC } from "react-icons/fa6";
-import { SiC, SiCplusplus, SiCss3, SiFirebase, SiFlask, SiGit, SiGithub, SiMysql, SiNodedotjs, SiNumpy, SiPandas, SiPython, SiR, SiReact, SiSqlalchemy, SiSqlite } from "react-icons/si"
+import { SiC, SiCplusplus, SiDocker, SiFirebase, SiFlask, SiGit, SiGithub, SiLinux, SiMysql, SiNodedotjs, SiNumpy, SiPandas, SiPostgresql, SiPython, SiPytorch, SiR, SiReact, SiSqlalchemy, SiSqlite, SiTypescript } from "react-icons/si"
 
 const skills = [
     {
@@ -16,12 +16,16 @@ const skills = [
       icon: <FaJs className="w-10 h-10" style={{ color: "#f7df1e" }} />,
     },
     {
-      name: "HTML5",
-      icon: <FaHtml5 className="w-10 h-10" style={{ color: "#e34c26" }} />,
+      name: "TypeScript",
+      icon: <SiTypescript className="w-10 h-10" style={{ color: "#3178C6" }} />,
     },
     {
-      name: "CSS3",
-      icon: <SiCss3 className="w-10 h-10" style={{ color: "#1572b6" }} />,
+      name: "C",
+      icon: <SiC className="w-10 h-10" style={{ color: "#A8B9CC" }} />,
+    },
+    {
+      name: "SQL",
+      icon: <FaDatabase className="w-10 h-10" style={{ color: "#336791" }} />,
     },
     {
       name: "R",
@@ -35,8 +39,8 @@ const skills = [
 
 const devTools = [
     {
-      name: "MySQL",
-      icon: <SiMysql className="w-10 h-10" style={{ color: "#4479a1" }} />,
+      name: "PostgreSQL",
+      icon: <SiPostgresql className="w-10 h-10" style={{ color: "#4169E1" }} />,
     },
     {
       name: "Git",
@@ -73,6 +77,18 @@ const devTools = [
     {
       name: "AWS",
       icon: <FaAws className="w-10 h-10" style={{ color: "#232F3E" }} />,
+    },
+    {
+      name: "Docker",
+      icon: <SiDocker className="w-10 h-10" style={{ color: "#2496ED" }} />,
+    },
+    {
+      name: "Linux",
+      icon: <SiLinux className="w-10 h-10" style={{ color: "#FCC624" }} />,
+    },
+    {
+      name: "PyTorch",
+      icon: <SiPytorch className="w-10 h-10" style={{ color: "#EE4C2C" }} />,
     },
 ]
 

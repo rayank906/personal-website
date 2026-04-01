@@ -13,8 +13,8 @@ export const About = () => {
                     <h3 className="text-2xl font-semibold"></h3>
                     <p className="text-muted-foreground">
                         I'm a student at the University of Michigan majoring in Computer Science
-                        and minoring in Mathematics. I'm currently very interested in ML systems and cloud computing. 
-                        In my free time, you'll catch me on the basketball courts or at my desk drawing
+                        with a minor in Mathematics. I have experience in backend engineering and ML systems. 
+                        In my free time, you'll catch me on the basketball courts or at my desk drawing.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button ">
