@@ -12,10 +12,10 @@ const projects = [
 
     {
       id: 1,
-      title: "Crypto Trading Strategy Engine", 
-      description: "Building a FastAPI endpoint that predicts bitcoin price movement using an XGBoost model",
-      image: "/images/crypto.png",
-      tags: ["Python", "FastAPI", "NumPy", "XGBoost", "AWS Lambda"],
+      title: "ICU Mortality Prediction",
+      description: "ML Pipeline to predict ICU mortality for patients",
+      image: "/images/icu.png",
+      tags: ["Python", "Scikit-learn", "Logistic Regression", "Cross Validation", "Model Evaluation"],
     },
 
     {
@@ -37,14 +37,22 @@ const projects = [
 
     {
       id: 4,
-      title: "Distracted Driver Classification", 
-      description: "Convolutional neural network model that classifies distracted driver images into categories",
-      image: "/images/distracted-driving.jpg",
-      tags: ["Python", "Tensorflow", "Keras", "Scikit-learn", "Seaborn"],
+      title: "Deep Learning Dog Breed Classifier",
+      description: "Evaluated CNN and ViT models to classify dog breeds",
+      image: "/images/dog.png",
+      tags: ["PyTorch", "Deep Learning", "Computer Vision", "Transfer Learning", "Model Evaluation"],
     },
 
     {
       id: 5,
+      title: "Distracted Driver Classification", 
+      description: "Convolutional neural network model that classifies distracted driver images into categories",
+      image: "/images/distracted-driving.jpg",
+      tags: ["Tensorflow", "Keras", "Scikit-learn", "Seaborn", "Deep Learning", "Computer Vision"],
+    },
+
+    {
+      id: 6,
       title: "Personal Website", 
       description: "Single-page blue-themed website",
       image: "/images/me.png",
