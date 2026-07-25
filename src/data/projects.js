@@ -6,6 +6,12 @@ export const projects = [
     tags: ["C++", "Priority Queues", "STL"],
   },
   {
+    slug: "cache-simulator",
+    title: "Cache Simulator",
+    description: "Simulator that models cache hits, misses, evictions, and memory access behaviour across configurable cache layouts.",
+    tags: ["C", "LC2K"],
+  },
+  {
     slug: "healthcare-analytics-dashboard",
     title: "Integrate Healthcare Analytics Dashboard",
     description: "Spring Boot backend service for a healthcare analytics dashboard.",
