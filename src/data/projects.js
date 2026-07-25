@@ -26,7 +26,7 @@ export const projects = [
   {
     slug: "whatsapp-bot",
     title: "Whatsapp Scheduler",
-    description: "Self-hosted script that sends recurring reminder messages to a WhatsApp group on a cron schedule",
+    description: "Self-hosted script that sends recurring reminder messages to a WhatsApp group on a cron schedule.",
     tags: ["Javascript", "AWS EC2"],
   },
 ];
