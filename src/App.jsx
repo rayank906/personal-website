@@ -3,8 +3,8 @@ import { Layout } from "@/components/Layout";
 import { About } from "@/pages/About";
 import { Experience } from "@/pages/Experience";
 import { Projects } from "@/pages/Projects";
-import { Blog } from "@/pages/Blog";
-import { BlogPost } from "@/pages/BlogPost";
+// import { Blog } from "@/pages/Blog";
+// import { BlogPost } from "@/pages/BlogPost";
 import { NotFound } from "@/pages/NotFound";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
           <Route index element={<About />} />
           <Route path="experience" element={<Experience />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/:slug" element={<BlogPost />} />
+          {/* <Route path="blog" element={<Blog />} /> */}
+          {/* <Route path="blog/:slug" element={<BlogPost />} /> */}
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

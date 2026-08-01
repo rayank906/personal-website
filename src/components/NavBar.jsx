@@ -7,7 +7,7 @@ const navItems = [
   { name: "About", to: "/" },
   { name: "Experience", to: "/experience" },
   { name: "Projects", to: "/projects" },
-  { name: "Blog", to: "/blog" },
+  // { name: "Blog", to: "/blog" },
 ];
 
 const linkClass = ({ isActive }) =>
