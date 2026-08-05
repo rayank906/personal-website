@@ -18,7 +18,7 @@ export const experience = [
     company: "E Quality Corporation - VetData Force",
     role: "Software Developer",
     period: "May 2025 - July 2025",
-    description: "Built a website and test infrastructure for an IT company.",
+    description: "Built a website and CI/CD pipeline for an IT company.",
   },
   {
     id: "004",
