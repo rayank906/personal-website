@@ -13,4 +13,18 @@ export const experience = [
     period: "Jan 2026 - April 2026",
     description: "LLM-based validation pipeline for producer reported data.",
   },
+  {
+    id: "003",
+    company: "E Quality Corporation - VetData Force",
+    role: "Software Developer",
+    period: "May 2025 - July 2025",
+    description: "Built a website and test infrastructure for an IT company.",
+  },
+  {
+    id: "004",
+    company: "Fronttieres Group",
+    role: "Software Engineer Intern",
+    period: "June 2024 - July 2024",
+    description: "Asynchronous automated reminder system for the company's external subscriptions.",
+  },
 ];
