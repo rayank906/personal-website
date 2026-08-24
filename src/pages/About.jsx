@@ -10,8 +10,8 @@ export const About = () => {
 
       <p className="text-foreground/90 leading-relaxed mt-8 max-w-xl">
         I'm a student at the University of Michigan majoring in Computer Science
-        with a minor in Mathematics. I have experience in backend engineering and
-        ML systems. In my free time, you'll catch me on the basketball courts or
+        with a minor in Mathematics. I am very interested machine learning, backend engineering and 
+        infrastructure. In my free time, you'll catch me on the basketball courts or
         at my desk drawing.
       </p>
     </section>
