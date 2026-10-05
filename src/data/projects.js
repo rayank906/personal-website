@@ -1,5 +1,17 @@
 export const projects = [
   {
+    slug: "rag-ass",
+    title: "EECS Course Assistant",
+    description: "RAG study assistant using hybrid semantic + BM25 retrieval over course notes.",
+    tags: ["Python", "FAISS", "SentenceTransformers", "Streamlit"],
+  },
+  {
+    slug: "concurrent-deliv",
+    title: "Concurrent Delivery System",
+    description: "Multithreaded delivery system with synchronized customer-driver matching and concurrent request processing.",
+    tags: ["C++", "Multithreading", "Mutexes", "Condition Variables"],
+  },
+  {
     slug: "order-book-simulator",
     title: "Order Book Simulator",
     description: "Price-time priority matching engine that processes data and executes trades.",
