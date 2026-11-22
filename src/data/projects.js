@@ -1,5 +1,11 @@
 export const projects = [
   {
+    slug: "pager",
+    title: "Virtual Memory Pager",
+    description: "Virtual memory pager with demand paging, page replacement, and copy-on-write.",
+    tags: ["C++", "Linux"],
+  },
+  {
     slug: "rag-ass",
     title: "EECS Course Assistant",
     description: "RAG study assistant using hybrid semantic + BM25 retrieval over course notes.",
@@ -7,7 +13,7 @@ export const projects = [
   },
   {
     slug: "kernel-thread-library",
-    title: "Kernel Thread Library",
+    title: "Multi-CPU Thread Library",
     description: "Multi-CPU thread library with interrupt-safe context switching and synchronization.",
     tags: ["C++", "Linux"],
   },
